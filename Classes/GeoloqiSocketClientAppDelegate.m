@@ -1,18 +1,18 @@
 //
-//  PacMapAppDelegate.m
-//  PacMap
+//  GeoloqiSocketClientAppDelegate.m
+//  GeoloqiSocketClient
 //
 //  Created by P. Mark Anderson on 4/8/11.
 //  Copyright 2011 Spot Metrix, Inc. All rights reserved.
 //
 
-#import "PacMapAppDelegate.h"
+#import "GeoloqiSocketClientAppDelegate.h"
 #import "RootViewController.h"
 #import "Geoloqi.h"
 #import "LQConstants.h"
 #import "Constants.h"
 
-@implementation PacMapAppDelegate
+@implementation GeoloqiSocketClientAppDelegate
 
 @synthesize window;
 @synthesize navigationController;
@@ -92,29 +92,12 @@
 #pragma mark Geoloqi
 
 - (void) connectToGeoloqi
-{
+{    
+    [[Geoloqi sharedInstance] setOauthClientID:LQ_OAUTH_CLIENT_ID secret:LQ_OAUTH_SECRET];    
     
-    [[Geoloqi sharedInstance] setOauthClientID:LQ_OAUTH_CLIENT_ID secret:LQ_OAUTH_SECRET];
-    
-    
-    NSString *storedAccessToken = ACCESS_TOKEN_PMARK; // [[NSUserDefaults standardUserDefaults] stringForKey:CONFIG_PERMANENT_ACCESS_TOKEN];
-    NSLog(@"\n\n\nStored access token: %@\n\n\n", storedAccessToken);
-    
-    //NSLog(@"\n\n\nWARNING: Using hard coded access token instead of: %@\n\n\n", storedAccessToken);
-    //storedAccessToken = @"4a6-6525b138045d3502c1db910305a320151ee9b6d5"; 
-    
-    if ([storedAccessToken length] == 0)
-    {
-        // If user not logged in
-        // log them in
-        
-    }
-    else
-    {
-        NSLog(@"Setting geoloqi access token: %@", storedAccessToken);
-        [[Geoloqi sharedInstance] setOauthAccessToken:storedAccessToken];
-    }
-    
+    NSString *accessToken = PERMANENT_ACCESS_TOKEN;    
+    NSLog(@"Setting geoloqi access token: %@", accessToken);
+    [[Geoloqi sharedInstance] setOauthAccessToken:accessToken];    
 }
 
 @end

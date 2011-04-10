@@ -1,13 +1,14 @@
 //
 //  RootViewController.m
-//  PacMap
+//  GeoloqiSocketClient
 //
 //  Created by P. Mark Anderson on 4/8/11.
 //  Copyright 2011 Spot Metrix, Inc. All rights reserved.
 //
 
 #import "RootViewController.h"
-#import "CJSONDeserializer.h"
+//#import "CJSONDeserializer.h"
+#import "NSDictionary+BSJSONAdditions.h"
 
 @implementation RootViewController
 
@@ -31,13 +32,11 @@
        {
            NSLog(@"Geoloqi message response: %@", responseBody);
            
-           NSError *err = nil;
-           NSDictionary *res = [[CJSONDeserializer deserializer] deserializeAsDictionary:[responseBody dataUsingEncoding:
-                                                                                          NSASCIIStringEncoding]
-                                                                                   error:&err];
+           NSDictionary *res = [NSDictionary dictionaryWithJSONString:responseBody];
+
            if (!res || [res objectForKey:@"error"] != nil) 
            {
-               NSLog(@"Error deserializing response \"%@\": %@", responseBody, err);
+               NSLog(@"Error deserializing response %@", responseBody);
                return;
            }
            

@@ -1,6 +1,6 @@
 //
 //  main.m
-//  PacMap
+//  GeoloqiSocketClient
 //
 //  Created by P. Mark Anderson on 4/8/11.
 //  Copyright 2011 Spot Metrix, Inc. All rights reserved.

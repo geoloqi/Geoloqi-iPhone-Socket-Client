@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'PacMap' target in the 'PacMap' project
+// Prefix header for all source files of the 'GeoloqiSocketClient' target in the 'GeoloqiSocketClient' project
 //
 #import <Availability.h>
 

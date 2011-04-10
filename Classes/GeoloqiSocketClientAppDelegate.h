@@ -1,6 +1,6 @@
 //
-//  PacMapAppDelegate.h
-//  PacMap
+//  GeoloqiSocketClientAppDelegate.h
+//  GeoloqiSocketClient
 //
 //  Created by P. Mark Anderson on 4/8/11.
 //  Copyright 2011 Spot Metrix, Inc. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PacMapAppDelegate : NSObject <UIApplicationDelegate> {
+@interface GeoloqiSocketClientAppDelegate : NSObject <UIApplicationDelegate> {
     
     UIWindow *window;
     UINavigationController *navigationController;

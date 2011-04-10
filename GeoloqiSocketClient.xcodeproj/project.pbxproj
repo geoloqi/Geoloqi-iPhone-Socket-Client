@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* PacMapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PacMapAppDelegate.m */; };
+		1D3623260D0F684500981E51 /* GeoloqiSocketClientAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* GeoloqiSocketClientAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -22,38 +22,38 @@
 		A607805713511C2800A81B84 /* NSString+BSJSONAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A607804C13511C2800A81B84 /* NSString+BSJSONAdditions.m */; };
 		A607805813511C2800A81B84 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A607804F13511C2800A81B84 /* ISO8601DateFormatter.m */; };
 		A607805913511C2800A81B84 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A607805213511C2800A81B84 /* Reachability.m */; };
-		A607807313511C3000A81B84 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = A607805E13511C3000A81B84 /* CDataScanner.m */; };
-		A607807413511C3000A81B84 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A607806113511C3000A81B84 /* CDataScanner_Extensions.m */; };
-		A607807513511C3000A81B84 /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A607806313511C3000A81B84 /* NSCharacterSet_Extensions.m */; };
-		A607807613511C3000A81B84 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A607806513511C3000A81B84 /* NSDictionary_JSONExtensions.m */; };
-		A607807713511C3000A81B84 /* NSScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A607806713511C3000A81B84 /* NSScanner_Extensions.m */; };
-		A607807813511C3000A81B84 /* CJSONDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = A607806A13511C3000A81B84 /* CJSONDataSerializer.m */; };
-		A607807913511C3000A81B84 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = A607806C13511C3000A81B84 /* CJSONDeserializer.m */; };
-		A607807A13511C3000A81B84 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = A607806E13511C3000A81B84 /* CJSONScanner.m */; };
-		A607807B13511C3000A81B84 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = A607807013511C3000A81B84 /* CJSONSerializer.m */; };
-		A607807C13511C3000A81B84 /* CSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = A607807213511C3000A81B84 /* CSerializedJSONData.m */; };
 		A607808013511C3D00A81B84 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A607807F13511C3D00A81B84 /* SystemConfiguration.framework */; };
 		A607808613511C4600A81B84 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A607808513511C4600A81B84 /* CoreLocation.framework */; };
-		A607817013512D0000A81B84 /* libGeoloqi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A607816F13512D0000A81B84 /* libGeoloqi.a */; };
 		A60B3CA5135161A6007B9B7E /* GeoloqiSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B3CA4135161A6007B9B7E /* GeoloqiSocketClient.m */; };
+		A60B3DAA13523FA3007B9B7E /* libGeoloqi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A60B3DA913523FA3007B9B7E /* libGeoloqi.a */; };
+		A60B3DDC13524191007B9B7E /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B3DC713524191007B9B7E /* CDataScanner.m */; };
+		A60B3DDD13524191007B9B7E /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B3DCA13524191007B9B7E /* CDataScanner_Extensions.m */; };
+		A60B3DDE13524191007B9B7E /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B3DCC13524191007B9B7E /* NSCharacterSet_Extensions.m */; };
+		A60B3DDF13524191007B9B7E /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B3DCE13524191007B9B7E /* NSDictionary_JSONExtensions.m */; };
+		A60B3DE013524191007B9B7E /* NSScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B3DD013524191007B9B7E /* NSScanner_Extensions.m */; };
+		A60B3DE113524191007B9B7E /* CJSONDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B3DD313524191007B9B7E /* CJSONDataSerializer.m */; };
+		A60B3DE213524191007B9B7E /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B3DD513524191007B9B7E /* CJSONDeserializer.m */; };
+		A60B3DE313524191007B9B7E /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B3DD713524191007B9B7E /* CJSONScanner.m */; };
+		A60B3DE413524191007B9B7E /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B3DD913524191007B9B7E /* CJSONSerializer.m */; };
+		A60B3DE513524191007B9B7E /* CSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B3DDB13524191007B9B7E /* CSerializedJSONData.m */; };
 		A61763D7134FF57200144B99 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61763D6134FF57200144B99 /* CFNetwork.framework */; };
 		A61763EB134FF9BA00144B99 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A61763EA134FF9BA00144B99 /* GCDAsyncSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* PacMapAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacMapAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* PacMapAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PacMapAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* PacMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PacMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3623240D0F684500981E51 /* GeoloqiSocketClientAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoloqiSocketClientAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* GeoloqiSocketClientAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoloqiSocketClientAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* GeoloqiSocketClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoloqiSocketClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28A0AAE50D9B0CCF005BE974 /* PacMap_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacMap_Prefix.pch; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* GeoloqiSocketClient_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoloqiSocketClient_Prefix.pch; sourceTree = "<group>"; };
 		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* PacMap-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PacMap-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* GeoloqiSocketClient-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GeoloqiSocketClient-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		A607803413511B4400A81B84 /* Geoloqi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geoloqi.h; sourceTree = "<group>"; };
 		A607803513511B4400A81B84 /* LQConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQConstants.h; sourceTree = "<group>"; };
 		A607803D13511BF900A81B84 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
@@ -71,35 +71,36 @@
 		A607804F13511C2800A81B84 /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = "<group>"; };
 		A607805113511C2800A81B84 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		A607805213511C2800A81B84 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		A607805D13511C3000A81B84 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
-		A607805E13511C3000A81B84 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
-		A607806013511C3000A81B84 /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
-		A607806113511C3000A81B84 /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
-		A607806213511C3000A81B84 /* NSCharacterSet_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCharacterSet_Extensions.h; sourceTree = "<group>"; };
-		A607806313511C3000A81B84 /* NSCharacterSet_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCharacterSet_Extensions.m; sourceTree = "<group>"; };
-		A607806413511C3000A81B84 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
-		A607806513511C3000A81B84 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
-		A607806613511C3000A81B84 /* NSScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSScanner_Extensions.h; sourceTree = "<group>"; };
-		A607806713511C3000A81B84 /* NSScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSScanner_Extensions.m; sourceTree = "<group>"; };
-		A607806913511C3000A81B84 /* CJSONDataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDataSerializer.h; sourceTree = "<group>"; };
-		A607806A13511C3000A81B84 /* CJSONDataSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDataSerializer.m; sourceTree = "<group>"; };
-		A607806B13511C3000A81B84 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
-		A607806C13511C3000A81B84 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
-		A607806D13511C3000A81B84 /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner.h; sourceTree = "<group>"; };
-		A607806E13511C3000A81B84 /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
-		A607806F13511C3000A81B84 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
-		A607807013511C3000A81B84 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
-		A607807113511C3000A81B84 /* CSerializedJSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSerializedJSONData.h; sourceTree = "<group>"; };
-		A607807213511C3000A81B84 /* CSerializedJSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSerializedJSONData.m; sourceTree = "<group>"; };
 		A607807F13511C3D00A81B84 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A607808513511C4600A81B84 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A60780B713511E2000A81B84 /* LQAuthenticationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQAuthenticationManager.h; sourceTree = "<group>"; };
 		A60780B813511E2000A81B84 /* LQHTTPRequestLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQHTTPRequestLoader.h; sourceTree = "<group>"; };
 		A60780B913511E2000A81B84 /* LQLocationUpdateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQLocationUpdateManager.h; sourceTree = "<group>"; };
 		A60780BA13511E2000A81B84 /* LQSingleLocationUpdateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSingleLocationUpdateManager.h; sourceTree = "<group>"; };
-		A607816F13512D0000A81B84 /* libGeoloqi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGeoloqi.a; sourceTree = "<group>"; };
 		A60B3CA3135161A6007B9B7E /* GeoloqiSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoloqiSocketClient.h; sourceTree = "<group>"; };
 		A60B3CA4135161A6007B9B7E /* GeoloqiSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoloqiSocketClient.m; sourceTree = "<group>"; };
+		A60B3DA913523FA3007B9B7E /* libGeoloqi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGeoloqi.a; path = "../../../Geoloqi/Geoloqi-iPhone-Library/build/Debug-iphoneos/libGeoloqi.a"; sourceTree = SOURCE_ROOT; };
+		A60B3DC613524191007B9B7E /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
+		A60B3DC713524191007B9B7E /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
+		A60B3DC913524191007B9B7E /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
+		A60B3DCA13524191007B9B7E /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
+		A60B3DCB13524191007B9B7E /* NSCharacterSet_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCharacterSet_Extensions.h; sourceTree = "<group>"; };
+		A60B3DCC13524191007B9B7E /* NSCharacterSet_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCharacterSet_Extensions.m; sourceTree = "<group>"; };
+		A60B3DCD13524191007B9B7E /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
+		A60B3DCE13524191007B9B7E /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		A60B3DCF13524191007B9B7E /* NSScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSScanner_Extensions.h; sourceTree = "<group>"; };
+		A60B3DD013524191007B9B7E /* NSScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSScanner_Extensions.m; sourceTree = "<group>"; };
+		A60B3DD213524191007B9B7E /* CJSONDataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDataSerializer.h; sourceTree = "<group>"; };
+		A60B3DD313524191007B9B7E /* CJSONDataSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDataSerializer.m; sourceTree = "<group>"; };
+		A60B3DD413524191007B9B7E /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		A60B3DD513524191007B9B7E /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
+		A60B3DD613524191007B9B7E /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner.h; sourceTree = "<group>"; };
+		A60B3DD713524191007B9B7E /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
+		A60B3DD813524191007B9B7E /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		A60B3DD913524191007B9B7E /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
+		A60B3DDA13524191007B9B7E /* CSerializedJSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSerializedJSONData.h; sourceTree = "<group>"; };
+		A60B3DDB13524191007B9B7E /* CSerializedJSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSerializedJSONData.m; sourceTree = "<group>"; };
+		A60B3DF013524201007B9B7E /* LQConstants_example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQConstants_example.h; sourceTree = "<group>"; };
 		A61763D6134FF57200144B99 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		A61763E9134FF9BA00144B99 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
 		A61763EA134FF9BA00144B99 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
@@ -116,7 +117,7 @@
 				A61763D7134FF57200144B99 /* CFNetwork.framework in Frameworks */,
 				A607808013511C3D00A81B84 /* SystemConfiguration.framework in Frameworks */,
 				A607808613511C4600A81B84 /* CoreLocation.framework in Frameworks */,
-				A607817013512D0000A81B84 /* libGeoloqi.a in Frameworks */,
+				A60B3DAA13523FA3007B9B7E /* libGeoloqi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,12 +130,12 @@
 				A607803D13511BF900A81B84 /* Constants.h */,
 				A61763E9134FF9BA00144B99 /* GCDAsyncSocket.h */,
 				A61763EA134FF9BA00144B99 /* GCDAsyncSocket.m */,
-				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
-				28C286E00D94DF7D0034E888 /* RootViewController.m */,
-				1D3623240D0F684500981E51 /* PacMapAppDelegate.h */,
-				1D3623250D0F684500981E51 /* PacMapAppDelegate.m */,
+				1D3623240D0F684500981E51 /* GeoloqiSocketClientAppDelegate.h */,
+				1D3623250D0F684500981E51 /* GeoloqiSocketClientAppDelegate.m */,
 				A60B3CA3135161A6007B9B7E /* GeoloqiSocketClient.h */,
 				A60B3CA4135161A6007B9B7E /* GeoloqiSocketClient.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -142,7 +143,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* PacMap.app */,
+				1D6058910D05DD3D006BFB54 /* GeoloqiSocketClient.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,8 +157,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				A607807F13511C3D00A81B84 /* SystemConfiguration.framework */,
-				A607808513511C4600A81B84 /* CoreLocation.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -165,7 +164,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				28A0AAE50D9B0CCF005BE974 /* PacMap_Prefix.pch */,
+				28A0AAE50D9B0CCF005BE974 /* GeoloqiSocketClient_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -176,7 +175,7 @@
 			children = (
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
-				8D1107310486CEB800E47090 /* PacMap-Info.plist */,
+				8D1107310486CEB800E47090 /* GeoloqiSocketClient-Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -184,6 +183,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A607807F13511C3D00A81B84 /* SystemConfiguration.framework */,
+				A607808513511C4600A81B84 /* CoreLocation.framework */,
 				A61763D6134FF57200144B99 /* CFNetwork.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
@@ -199,7 +200,7 @@
 				A607804D13511C2800A81B84 /* ISO-8601-parser-0.5 */,
 				A607805013511C2800A81B84 /* Reachability2.0 */,
 				A607803213511B4400A81B84 /* Geoloqi */,
-				A607805C13511C3000A81B84 /* TouchJSON */,
+				A60B3DC513524191007B9B7E /* TouchJSON */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -207,9 +208,10 @@
 		A607803213511B4400A81B84 /* Geoloqi */ = {
 			isa = PBXGroup;
 			children = (
-				A607816F13512D0000A81B84 /* libGeoloqi.a */,
+				A60B3DA913523FA3007B9B7E /* libGeoloqi.a */,
 				A607803413511B4400A81B84 /* Geoloqi.h */,
 				A607803513511B4400A81B84 /* LQConstants.h */,
+				A60B3DF013524201007B9B7E /* LQConstants_example.h */,
 				A60780B713511E2000A81B84 /* LQAuthenticationManager.h */,
 				A60780B813511E2000A81B84 /* LQHTTPRequestLoader.h */,
 				A60780B913511E2000A81B84 /* LQLocationUpdateManager.h */,
@@ -253,45 +255,45 @@
 			path = Reachability2.0;
 			sourceTree = "<group>";
 		};
-		A607805C13511C3000A81B84 /* TouchJSON */ = {
+		A60B3DC513524191007B9B7E /* TouchJSON */ = {
 			isa = PBXGroup;
 			children = (
-				A607805D13511C3000A81B84 /* CDataScanner.h */,
-				A607805E13511C3000A81B84 /* CDataScanner.m */,
-				A607805F13511C3000A81B84 /* Extensions */,
-				A607806813511C3000A81B84 /* JSON */,
+				A60B3DC613524191007B9B7E /* CDataScanner.h */,
+				A60B3DC713524191007B9B7E /* CDataScanner.m */,
+				A60B3DC813524191007B9B7E /* Extensions */,
+				A60B3DD113524191007B9B7E /* JSON */,
 			);
 			path = TouchJSON;
 			sourceTree = "<group>";
 		};
-		A607805F13511C3000A81B84 /* Extensions */ = {
+		A60B3DC813524191007B9B7E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				A607806013511C3000A81B84 /* CDataScanner_Extensions.h */,
-				A607806113511C3000A81B84 /* CDataScanner_Extensions.m */,
-				A607806213511C3000A81B84 /* NSCharacterSet_Extensions.h */,
-				A607806313511C3000A81B84 /* NSCharacterSet_Extensions.m */,
-				A607806413511C3000A81B84 /* NSDictionary_JSONExtensions.h */,
-				A607806513511C3000A81B84 /* NSDictionary_JSONExtensions.m */,
-				A607806613511C3000A81B84 /* NSScanner_Extensions.h */,
-				A607806713511C3000A81B84 /* NSScanner_Extensions.m */,
+				A60B3DC913524191007B9B7E /* CDataScanner_Extensions.h */,
+				A60B3DCA13524191007B9B7E /* CDataScanner_Extensions.m */,
+				A60B3DCB13524191007B9B7E /* NSCharacterSet_Extensions.h */,
+				A60B3DCC13524191007B9B7E /* NSCharacterSet_Extensions.m */,
+				A60B3DCD13524191007B9B7E /* NSDictionary_JSONExtensions.h */,
+				A60B3DCE13524191007B9B7E /* NSDictionary_JSONExtensions.m */,
+				A60B3DCF13524191007B9B7E /* NSScanner_Extensions.h */,
+				A60B3DD013524191007B9B7E /* NSScanner_Extensions.m */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		A607806813511C3000A81B84 /* JSON */ = {
+		A60B3DD113524191007B9B7E /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				A607806913511C3000A81B84 /* CJSONDataSerializer.h */,
-				A607806A13511C3000A81B84 /* CJSONDataSerializer.m */,
-				A607806B13511C3000A81B84 /* CJSONDeserializer.h */,
-				A607806C13511C3000A81B84 /* CJSONDeserializer.m */,
-				A607806D13511C3000A81B84 /* CJSONScanner.h */,
-				A607806E13511C3000A81B84 /* CJSONScanner.m */,
-				A607806F13511C3000A81B84 /* CJSONSerializer.h */,
-				A607807013511C3000A81B84 /* CJSONSerializer.m */,
-				A607807113511C3000A81B84 /* CSerializedJSONData.h */,
-				A607807213511C3000A81B84 /* CSerializedJSONData.m */,
+				A60B3DD213524191007B9B7E /* CJSONDataSerializer.h */,
+				A60B3DD313524191007B9B7E /* CJSONDataSerializer.m */,
+				A60B3DD413524191007B9B7E /* CJSONDeserializer.h */,
+				A60B3DD513524191007B9B7E /* CJSONDeserializer.m */,
+				A60B3DD613524191007B9B7E /* CJSONScanner.h */,
+				A60B3DD713524191007B9B7E /* CJSONScanner.m */,
+				A60B3DD813524191007B9B7E /* CJSONSerializer.h */,
+				A60B3DD913524191007B9B7E /* CJSONSerializer.m */,
+				A60B3DDA13524191007B9B7E /* CSerializedJSONData.h */,
+				A60B3DDB13524191007B9B7E /* CSerializedJSONData.m */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -299,9 +301,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* PacMap */ = {
+		1D6058900D05DD3D006BFB54 /* GeoloqiSocketClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PacMap" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GeoloqiSocketClient" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -311,9 +313,9 @@
 			);
 			dependencies = (
 			);
-			name = PacMap;
+			name = GeoloqiSocketClient;
 			productName = PacMap;
-			productReference = 1D6058910D05DD3D006BFB54 /* PacMap.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* GeoloqiSocketClient.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -321,7 +323,7 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PacMap" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GeoloqiSocketClient" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -336,7 +338,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* PacMap */,
+				1D6058900D05DD3D006BFB54 /* GeoloqiSocketClient */,
 			);
 		};
 /* End PBXProject section */
@@ -359,7 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* PacMapAppDelegate.m in Sources */,
+				1D3623260D0F684500981E51 /* GeoloqiSocketClientAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				A61763EB134FF9BA00144B99 /* GCDAsyncSocket.m in Sources */,
 				A607805313511C2800A81B84 /* BSJSONEncoder.m in Sources */,
@@ -369,17 +371,17 @@
 				A607805713511C2800A81B84 /* NSString+BSJSONAdditions.m in Sources */,
 				A607805813511C2800A81B84 /* ISO8601DateFormatter.m in Sources */,
 				A607805913511C2800A81B84 /* Reachability.m in Sources */,
-				A607807313511C3000A81B84 /* CDataScanner.m in Sources */,
-				A607807413511C3000A81B84 /* CDataScanner_Extensions.m in Sources */,
-				A607807513511C3000A81B84 /* NSCharacterSet_Extensions.m in Sources */,
-				A607807613511C3000A81B84 /* NSDictionary_JSONExtensions.m in Sources */,
-				A607807713511C3000A81B84 /* NSScanner_Extensions.m in Sources */,
-				A607807813511C3000A81B84 /* CJSONDataSerializer.m in Sources */,
-				A607807913511C3000A81B84 /* CJSONDeserializer.m in Sources */,
-				A607807A13511C3000A81B84 /* CJSONScanner.m in Sources */,
-				A607807B13511C3000A81B84 /* CJSONSerializer.m in Sources */,
-				A607807C13511C3000A81B84 /* CSerializedJSONData.m in Sources */,
 				A60B3CA5135161A6007B9B7E /* GeoloqiSocketClient.m in Sources */,
+				A60B3DDC13524191007B9B7E /* CDataScanner.m in Sources */,
+				A60B3DDD13524191007B9B7E /* CDataScanner_Extensions.m in Sources */,
+				A60B3DDE13524191007B9B7E /* NSCharacterSet_Extensions.m in Sources */,
+				A60B3DDF13524191007B9B7E /* NSDictionary_JSONExtensions.m in Sources */,
+				A60B3DE013524191007B9B7E /* NSScanner_Extensions.m in Sources */,
+				A60B3DE113524191007B9B7E /* CJSONDataSerializer.m in Sources */,
+				A60B3DE213524191007B9B7E /* CJSONDeserializer.m in Sources */,
+				A60B3DE313524191007B9B7E /* CJSONScanner.m in Sources */,
+				A60B3DE413524191007B9B7E /* CJSONSerializer.m in Sources */,
+				A60B3DE513524191007B9B7E /* CSerializedJSONData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,13 +396,14 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = PacMap_Prefix.pch;
-				INFOPLIST_FILE = "PacMap-Info.plist";
+				GCC_PREFIX_HEADER = GeoloqiSocketClient_Prefix.pch;
+				INFOPLIST_FILE = "GeoloqiSocketClient-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Lib/Geoloqi\"",
+					"\"$(SRCROOT)/../../../Geoloqi/Geoloqi-iPhone-Library/build/Debug-iphoneos\"",
 				);
-				PRODUCT_NAME = PacMap;
+				PRODUCT_NAME = GeoloqiSocketClient;
 			};
 			name = Debug;
 		};
@@ -410,13 +413,14 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = PacMap_Prefix.pch;
-				INFOPLIST_FILE = "PacMap-Info.plist";
+				GCC_PREFIX_HEADER = GeoloqiSocketClient_Prefix.pch;
+				INFOPLIST_FILE = "GeoloqiSocketClient-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Lib/Geoloqi\"",
+					"\"$(SRCROOT)/../../../Geoloqi/Geoloqi-iPhone-Library/build/Debug-iphoneos\"",
 				);
-				PRODUCT_NAME = PacMap;
+				PRODUCT_NAME = GeoloqiSocketClient;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -453,7 +457,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PacMap" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GeoloqiSocketClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -462,7 +466,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PacMap" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GeoloqiSocketClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

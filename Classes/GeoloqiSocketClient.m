@@ -146,7 +146,7 @@
 
 - (void) sendAccessTokenAndListen
 {
-    NSString *accessToken = ACCESS_TOKEN_PMARK;
+    NSString *accessToken = PERMANENT_ACCESS_TOKEN;
     NSData *data = [accessToken dataUsingEncoding:NSASCIIStringEncoding];
     
     NSLog(@"Writing access token: %@", data);

@@ -15,4 +15,7 @@
     GeoloqiSocketClient *geoloqiClient;
 }
 
+// TODO: Make a delegate protocol.
+// TODO: Send CLLocation to server.
+
 @end
