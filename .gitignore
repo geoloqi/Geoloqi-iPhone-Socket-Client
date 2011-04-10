@@ -6,5 +6,6 @@ build
 *.swp
 *~.nib
 .DS_Store
+Lib/Geoloqi/LQConstants.h
 
 */errorLogFromLastBuild.txt
