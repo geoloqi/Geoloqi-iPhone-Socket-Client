@@ -25,7 +25,6 @@
 		A607808013511C3D00A81B84 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A607807F13511C3D00A81B84 /* SystemConfiguration.framework */; };
 		A607808613511C4600A81B84 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A607808513511C4600A81B84 /* CoreLocation.framework */; };
 		A60B3CA5135161A6007B9B7E /* GeoloqiSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B3CA4135161A6007B9B7E /* GeoloqiSocketClient.m */; };
-		A60B3DAA13523FA3007B9B7E /* libGeoloqi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A60B3DA913523FA3007B9B7E /* libGeoloqi.a */; };
 		A60B3DDC13524191007B9B7E /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B3DC713524191007B9B7E /* CDataScanner.m */; };
 		A60B3DDD13524191007B9B7E /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B3DCA13524191007B9B7E /* CDataScanner_Extensions.m */; };
 		A60B3DDE13524191007B9B7E /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B3DCC13524191007B9B7E /* NSCharacterSet_Extensions.m */; };
@@ -36,6 +35,7 @@
 		A60B3DE313524191007B9B7E /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B3DD713524191007B9B7E /* CJSONScanner.m */; };
 		A60B3DE413524191007B9B7E /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B3DD913524191007B9B7E /* CJSONSerializer.m */; };
 		A60B3DE513524191007B9B7E /* CSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B3DDB13524191007B9B7E /* CSerializedJSONData.m */; };
+		A60B3E2C135245FF007B9B7E /* libGeoloqi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A60B3E2B135245FF007B9B7E /* libGeoloqi.a */; };
 		A61763D7134FF57200144B99 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61763D6134FF57200144B99 /* CFNetwork.framework */; };
 		A61763EB134FF9BA00144B99 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A61763EA134FF9BA00144B99 /* GCDAsyncSocket.m */; };
 /* End PBXBuildFile section */
@@ -79,7 +79,6 @@
 		A60780BA13511E2000A81B84 /* LQSingleLocationUpdateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQSingleLocationUpdateManager.h; sourceTree = "<group>"; };
 		A60B3CA3135161A6007B9B7E /* GeoloqiSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoloqiSocketClient.h; sourceTree = "<group>"; };
 		A60B3CA4135161A6007B9B7E /* GeoloqiSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoloqiSocketClient.m; sourceTree = "<group>"; };
-		A60B3DA913523FA3007B9B7E /* libGeoloqi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGeoloqi.a; path = "../../../Geoloqi/Geoloqi-iPhone-Library/build/Debug-iphoneos/libGeoloqi.a"; sourceTree = SOURCE_ROOT; };
 		A60B3DC613524191007B9B7E /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
 		A60B3DC713524191007B9B7E /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
 		A60B3DC913524191007B9B7E /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
@@ -101,6 +100,7 @@
 		A60B3DDA13524191007B9B7E /* CSerializedJSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSerializedJSONData.h; sourceTree = "<group>"; };
 		A60B3DDB13524191007B9B7E /* CSerializedJSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSerializedJSONData.m; sourceTree = "<group>"; };
 		A60B3DF013524201007B9B7E /* LQConstants_example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQConstants_example.h; sourceTree = "<group>"; };
+		A60B3E2B135245FF007B9B7E /* libGeoloqi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGeoloqi.a; path = "../../Geoloqi/Geoloqi-iPhone-Library/build/libGeoloqi.a"; sourceTree = SOURCE_ROOT; };
 		A61763D6134FF57200144B99 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		A61763E9134FF9BA00144B99 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
 		A61763EA134FF9BA00144B99 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 				A61763D7134FF57200144B99 /* CFNetwork.framework in Frameworks */,
 				A607808013511C3D00A81B84 /* SystemConfiguration.framework in Frameworks */,
 				A607808613511C4600A81B84 /* CoreLocation.framework in Frameworks */,
-				A60B3DAA13523FA3007B9B7E /* libGeoloqi.a in Frameworks */,
+				A60B3E2C135245FF007B9B7E /* libGeoloqi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +208,7 @@
 		A607803213511B4400A81B84 /* Geoloqi */ = {
 			isa = PBXGroup;
 			children = (
-				A60B3DA913523FA3007B9B7E /* libGeoloqi.a */,
+				A60B3E2B135245FF007B9B7E /* libGeoloqi.a */,
 				A607803413511B4400A81B84 /* Geoloqi.h */,
 				A607803513511B4400A81B84 /* LQConstants.h */,
 				A60B3DF013524201007B9B7E /* LQConstants_example.h */,
@@ -400,8 +400,7 @@
 				INFOPLIST_FILE = "GeoloqiSocketClient-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Lib/Geoloqi\"",
-					"\"$(SRCROOT)/../../../Geoloqi/Geoloqi-iPhone-Library/build/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../../Geoloqi/Geoloqi-iPhone-Library/build\"",
 				);
 				PRODUCT_NAME = GeoloqiSocketClient;
 			};
@@ -417,8 +416,7 @@
 				INFOPLIST_FILE = "GeoloqiSocketClient-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Lib/Geoloqi\"",
-					"\"$(SRCROOT)/../../../Geoloqi/Geoloqi-iPhone-Library/build/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../../Geoloqi/Geoloqi-iPhone-Library/build\"",
 				);
 				PRODUCT_NAME = GeoloqiSocketClient;
 				VALIDATE_PRODUCT = YES;
