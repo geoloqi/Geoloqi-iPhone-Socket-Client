@@ -10,11 +10,12 @@
 #import "GCDAsyncSocket.h"
 #import "LQConstants.h"
 #import "Geoloqi.h"
+#import "GeoloqiSocketClient.h"
 
 @interface RootViewController : UITableViewController 
 {
-	GCDAsyncSocket *asyncSocket;
     LQHTTPRequestCallback geoloqiMessageBlock;
+    GeoloqiSocketClient *geoloqiClient;
 }
 
 @end
